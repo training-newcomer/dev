@@ -1,0 +1,29 @@
+.sec01 {
+  position: relative;
+
+  &__number {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    bottom: 30%;
+    left: 31.7%;
+    font-size: calc((70 / 1920) * 100vw);
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+  }
+}
+
+@media screen and (max-width: 1080px){
+  .sec01 .sec01__number {
+    font-family: 'Noto Sans JP', sans-serif;
+    position: absolute;
+    bottom: 40.7%;
+    left: 19.3%;
+    font-size: calc((140 / 750) * 100vw);
+    font-weight: 700;
+    line-height: 100%;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
+} 

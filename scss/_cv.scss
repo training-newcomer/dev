@@ -1,0 +1,93 @@
+.header__cv {
+  width: vw(220);
+  margin-left: clamp(10px, 4.27vw, 32px);
+  z-index: 100;
+
+  @include mediaQuery(pc) {
+    width: vwlg(408);
+    margin-left: auto;
+  }
+}
+
+.cv {
+  position: relative;
+}
+
+.cv_01 {
+  width: vw(110);
+  max-width: 220px;
+
+  @include mediaQuery(pc) {
+    width: 202px;
+  }
+}
+
+.cv_02 {
+  width: vw(110);
+  max-width: 220px;
+
+  @include mediaQuery(pc) {
+    width: 202px;
+    margin-left: 4%;
+  }
+}
+
+.cv_03 {
+  position: absolute;
+  top: 2%;
+  left: 47%;
+  transform: translateX(-50%);
+  width: 93%;
+
+  @include mediaQuery(pc) {
+    width: vwlg(492);
+    top: 2%;
+    left: 36.7%;
+  }
+}
+
+.cv_04 {
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 87%;
+
+  @include mediaQuery(pc) {
+    width: vwlg(461);
+    top: 33%;
+    left: 62.5%;
+  }
+}
+
+.cv_05,
+.cv_07,
+.cv_09 {
+  position: absolute;
+  top: 39%;
+  left: 47%;
+  transform: translateX(-50%);
+  width: 92%;
+
+  @include mediaQuery(pc) {
+    width: vwlg(492);
+    top: 47.2%;
+    left: 36.7%;
+  }
+}
+
+.cv_06,
+.cv_08,
+.cv_10 {
+  position: absolute;
+  top: 67.2%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 87%;
+
+  @include mediaQuery(pc) {
+    width: vwlg(463);
+    top: 62.4%;
+    left: 62.5%;
+  }
+}
